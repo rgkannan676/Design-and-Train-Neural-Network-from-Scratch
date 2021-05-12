@@ -1,5 +1,5 @@
 # Design and Train Neural Network from Scratch
-Design a neural network, derive the parameter gradients with respect to loss function and update the parameter weights and update the weight parameters using the gradients without help of inbuilt libraries.
+Design a neural network, derive the parameter gradients with respect to loss function and update the parameter weights and update the weight parameters using the gradients without the help of in-built libraries.
 
 # Introduction
 In this assignment. I am trying to design a neural network, derive the parameter gradients with respect to loss function and update the parameter weights and update the weight parameters using the gradients. 
