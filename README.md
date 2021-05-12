@@ -76,6 +76,7 @@ In this section, I will be deriving the gradients of each weight and bias with r
 
 **Gradient of the Loss function L with respect to output vector Z**
 
+
 The equation for the cross-entropy loss function is 
 
 
@@ -112,14 +113,14 @@ P(Zi) is the Softmax of the predicted vector Z and ti represents the correspondi
 
 
 ![image](https://user-images.githubusercontent.com/29349268/118032630-79849680-b39a-11eb-9c6a-e1236981b438.png)
-
-
+-------------------------------------------------------------------------------
 
 **Gradient of the Loss function L with respect to Vw , Vbias and YR of second layer**
 
 In this section I will be calculating the gradient of the Loss function with respect to the second layer weight, bias parameters, and the output of the ReLu, YR. I will be calculating dL/dVw and dL/dVbias
 
 ![image](https://user-images.githubusercontent.com/29349268/118033288-3840b680-b39b-11eb-8c05-e4f77770fe84.png)
+-------------------------------------------------------------------------------
 
 
 **Gradient of the Loss Function L with respect to the output Y of first layer**
@@ -127,7 +128,7 @@ In this section I will be calculating the gradient of the Loss function with res
 In this section I will be calculating the gradient of Loss function with respect to the output Y of the 1st layer i.e. dL/dY.
 
 ![image](https://user-images.githubusercontent.com/29349268/118033376-51e1fe00-b39b-11eb-9bd4-471968ab9e0e.png)
-
+-------------------------------------------------------------------------------
 
 
 **Gradient of the Loss function L with respect to Uw and Ubias of first layer**
